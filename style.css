@@ -112,6 +112,17 @@ form .fields .input-field{
 .input-field input[type="date"]{
     color: #333;
 }
+.input-field.success input{
+    border-color: #09c372;
+}
+.input-field.error input{
+    border-color: #ff3860;
+}
+.input-field    .error {
+    border-color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
 .container form button, .backBtn{
     display: flex;
     align-items: center;
